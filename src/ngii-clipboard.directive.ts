@@ -1,5 +1,5 @@
 import {Directive, ElementRef, Input, Output, EventEmitter, OnInit, OnDestroy  } from '@angular/core';
-import Clipboard = require('clipboard');
+import Clipboard from 'clipboard';
 
 @Directive({
     selector: '[ngIIclipboard]'
